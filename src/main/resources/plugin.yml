@@ -8,17 +8,17 @@ commands:
     description: Warps to designated warp
     usage: /pwarp <warp>
     aliases: pw
-    permission: pw.pwarp
+    permission: personalwarps.pwarp
     permission-message: You do not have permission to warp.
   setpwarp:
     description: Creates a personal warp
     usage: /setpwarp <warp name>
     aliases: setp
-    permission: pw.setpwarp
+    permission: personalwarps.setpwarp
     permission-message: You do not have permission to create a warp.
   delpwarp:
     description: Deletes a warp
     usage: /delpwarp <warp name>
     aliases: delp
-    permission: pw.delpwarp
+    permission: personalwarps.delpwarp
     permission-message: You do not have permission to create a warp.

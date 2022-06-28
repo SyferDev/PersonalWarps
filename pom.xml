@@ -6,7 +6,7 @@
 
     <groupId>SyferDev</groupId>
     <artifactId>PersonalWarps</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>PersonalWarps</name>
