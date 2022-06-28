@@ -1,0 +1,24 @@
+name: PersonalWarps
+version: '${project.version}'
+main: syferdev.personalwarps.PersonalWarps
+api-version: 1.19
+description: warps for personal use
+commands:
+  pwarp:
+    description: Warps to designated warp
+    usage: /pwarp <warp>
+    aliases: pw
+    permission: pw.pwarp
+    permission-message: You do not have permission to warp.
+  setpwarp:
+    description: Creates a personal warp
+    usage: /setpwarp <warp name>
+    aliases: setp
+    permission: pw.setpwarp
+    permission-message: You do not have permission to create a warp.
+  delpwarp:
+    description: Deletes a warp
+    usage: /delpwarp <warp name>
+    aliases: delp
+    permission: pw.delpwarp
+    permission-message: You do not have permission to create a warp.
